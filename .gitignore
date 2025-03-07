@@ -1,0 +1,53 @@
+# Игнорируем скомпилированные файлы и исполняемые файлы
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Игнорируем сборочные каталоги
+/build/
+/bin/
+/Debug/
+Release/
+CMakeFiles/
+CMakeCache.txt
+
+# Файлы IDE (Visual Studio, CLion, Code::Blocks и др.)
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.code-workspace
+.idea/
+.vscode/
+*.cbp
+*.layout
+
+# Файлы CMake
+CMakeLists.txt.user
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Конфигурационные файлы пользователя
+*.user
+*.ncb
+*.sdf
+*.opendb
+*.VC.db
+
+# Файлы пакетов (если используете Conan, vcpkg и др.)
+conan.lock
+conanbuildinfo.txt
+conanbuildinfo.cmake
+conaninfo.txt
+vcpkg_installed/
+
+# Игнорируем файлы Make
+Makefile
+CMakeCache.txt
